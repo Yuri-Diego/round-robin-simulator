@@ -17,12 +17,6 @@ O **Round Robin** é um algoritmo de escalonamento de CPU baseado em **tempo com
 - É considerado **justo**, evitando que processos de longa duração monopolizem a CPU.
 - É especialmente útil para sistemas interativos e de tempo compartilhado.
 
-Matematicamente, para um processo \(P_i\) com tempo de burst \(B_i\) e tempo de chegada \(A_i\), temos:
-
-- **Tempo de término:** \(T_i = t_{\text{final do último quantum do processo}}\)
-- **Tempo de resposta:** \(R_i = T_i - A_i\)
-- **Tempo de espera:** \(W_i = R_i - B_i\)
-
 ---
 
 ## 3. Estrutura do Sistema
